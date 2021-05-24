@@ -19,13 +19,38 @@
         </ul>
     </nav>
     <header>
-        <h1> Wat is garen?</h1>
+        <h1> Contact</h1>
     </header>
-    <main>
-        <p>
-            ik wil even testen of ik een plaatje als achtergrond heb
+    <form name="contact" method="POST" data-netlify="true">
+        <p><label>Voer uw naam in: <input type="text" name="name" required placeholder="verplicht"></label></p>
+        <p><label for="email">Emailadres: <input id="email" type="email" name="email" required placeholder="verplicht">
+            </label></p>
+        <p><label>Telefoonnummer: <input type="number" name="number"></label></p>
+        <p><label>Geboortedatum: <input type="date" name="birthdate"></label></p>
+        <p>Geslacht:
+            <input type="radio" id="man" name="geslacht" value="man">
+            <label for="male">Man</label>
+            <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+            <label for="vrouw">Vrouw</label>
+            <input type="radio" id="other" name="geslacht" value="other">
+            <label for="other">Anders</label>
         </p>
-    </main>
+        <p>Favoriete hobbie:
+            <label><input type="checkbox" name="hobbie" value="haken">Haken</label>
+            <label><input type="checkbox" name="hobbie" value="breien">Breien</label>
+            <label><input type="checkbox" name="hobbie" value="weven">Weven</label>
+            <label><input type="checkbox" name="hobbie" value="anders">Anders</label>
+        </p>
+        <p><label>Favoriete kleur: <input type="color" name="favcolor"></label></p>
+        <p><label>Vertel over uw favoriete project: <br><textarea name="project" rows="20" cols="50"></textarea></label>
+        </p>
+        <p><label>Upload uw project: <input type="file" name="file"></label></p>
+        <p><label>Link naar uw project: <input type="url" name="link"></label></p>
+        <p><label>Vul hier uw vraag of opmerking in: <br><textarea name="project" rows="20"
+                    cols="50"></textarea></label></p>
+        <input type="submit" value="Verzenden">
+        <input type="reset" value="Wissen">
+    </form>
     <footer>
         Disclaimer: Er kunnen inhoudelijke fouten op deze website staan. Deze website is voor show doeleinden.
     </footer>
