@@ -17,7 +17,7 @@ body {
   overflow: hidden;
   background-color: #333;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.7em;
+  font-size: 0.3em;
 }
 .navbar li {
   float: left;
@@ -97,4 +97,9 @@ h3 {
 }
 .infobox p {
   margin: 10px 0px;
+}
+@media (min-width: 720px) {
+  .navbar ul {
+    font-size: 0.7em;
+  }
 }
