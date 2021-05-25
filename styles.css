@@ -39,22 +39,19 @@ header {
   padding: 10px;
   margin: 15px;
 }
-main {
-  border-radius: 25px;
-  border: 5px solid purple;
-  background-color: rgba(211, 211, 211, 0.7);
-  padding: 0px 10px;
-  margin: 15px;
-}
 footer {
-  list-style-type: none;
   margin: 0;
   padding: 10px;
-  overflow: hidden;
   background-color: #333;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+  font-size: 0, 8em;
   color: rgb(218, 179, 255);
+}
+.disclaimer {
   font-size: 10px;
+  color: burlywood;
 }
 form {
   border-radius: 25px;
@@ -65,11 +62,25 @@ form {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
 }
-.infobox {
+.linkbox {
   border-radius: 25px;
   border: 5px solid purple;
   background-color: rgba(218, 179, 255, 0.7);
   padding: 10px 10px 0px;
+  margin: 15px;
+}
+.infobox {
+  border-radius: 25px;
+  border: 5px solid purple;
+  background-color: rgba(211, 211, 211, 0.7);
+  padding: 0px 10px;
+  margin: 15px;
+}
+.inleiding {
+  border-radius: 25px;
+  border: 5px solid purple;
+  background-color: rgba(211, 211, 211, 0.7);
+  padding: 10px;
   margin: 15px;
 }
 a {
@@ -79,4 +90,10 @@ a {
 img {
   width: 100%;
   border-radius: 25px;
+}
+h3 {
+  margin: 15px 0px 0px;
+}
+.infobox p {
+  margin: 10px 0px;
 }
