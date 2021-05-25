@@ -17,16 +17,17 @@ body {
   overflow: hidden;
   background-color: #333;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9em;
+  font-size: 0.4em;
 }
 .navbar li {
   float: left;
+  width: 20%;
 }
 .navbar a {
   display: block;
   color: rgb(218, 179, 255);
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.4em 0.6em;
   text-decoration: none;
 }
 .navbar a:hover {
