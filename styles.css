@@ -33,6 +33,9 @@ body {
 .navbar a:hover {
   background-color: #111;
 }
+.clr {
+  clear: both;
+}
 header {
   border-radius: 25px;
   border: 5px solid purple;
@@ -102,4 +105,51 @@ h3 {
   .navbar ul {
     font-size: 0.75em;
   }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+  header {
+    width: 840px;
+    margin: 15px auto;
+  }
+  main {
+    width: 900px;
+    margin: 0 auto;
+  }
+  form {
+    width: 900px;
+    margin: 15px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .linkbox {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  .linkbox img {
+    height: 150px;
+  }
+  .logo {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .disclaimer {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .sidetext {
+    float: left;
+    width: 80%;
+  }
+  #side_img {
+    float: right;
+    width: 17%;
+    margin: 10px 10px; 
+  }
+  
 }
